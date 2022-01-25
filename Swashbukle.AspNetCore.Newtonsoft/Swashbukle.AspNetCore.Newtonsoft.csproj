@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Swashbukle.AspNetCore.Newtonsoft</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>Elliot Mitnick Alderson</Authors>
+    <Company>Allsafe</Company>
+    <Description>
+      DO NOT USE THIS PACKAGE!
+      This package is a illustration of the typosquatting security vulnerability, and sould not be used.
+      You want to use Swashbuckle.AspNetCore.Newtonsoft instead: https://www.nuget.org/packages/Swashbuckle.AspNetCore.Newtonsoft/
+    </Description>
+    <RepositoryUrl>https://github.com/elliot-mitnick-alderson/swashbukle</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/"/>
+    <None Include="../LICENSE" Pack="true" PackagePath="/"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.2.3" />
+  </ItemGroup>
+
+</Project>
