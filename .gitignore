@@ -1,0 +1,7 @@
+# .NET build output folders
+bin/
+obj/
+
+# VS and VS Code user settings
+.vscode/
+*.sln
